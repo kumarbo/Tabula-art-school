@@ -1,0 +1,156 @@
+.tabula-main-container .formsec {
+  height: 400px;
+  width: 100%; }
+  .tabula-main-container .formsec .col-sm-6 {
+    height: auto;
+    width: 100%; }
+    .tabula-main-container .formsec .col-sm-6 .inner1 {
+      height: auto;
+      margin: 80px 0px 0px 40px; }
+      .tabula-main-container .formsec .col-sm-6 .inner1 span {
+        font-size: 30px;
+        font-family: 'Wendy One', sans-serif; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 {
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .tabula-main-container .formsec .col-sm-6 .inner2 .co {
+        height: 100px;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px; }
+        .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner1 {
+          flex: 0.5; }
+          .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner1 img {
+            margin: -50px 0px 30px;
+            height: 30px;
+            width: 30px; }
+        .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner2 {
+          flex: 1.5; }
+          .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner2 span {
+            display: block; }
+          .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner2 h6 {
+            color: #ee5b54; }
+      .tabula-main-container .formsec .col-sm-6 .inner2 form {
+        widtH: 100%;
+        height: auto; }
+        .tabula-main-container .formsec .col-sm-6 .inner2 form input[type=text] {
+          margin: 20px 2% 5px 6%;
+          width: 40%;
+          outline: none !important;
+          line-height: 2;
+          text-align: center;
+          font-family: 'Spartan', sans-serif; }
+        .tabula-main-container .formsec .col-sm-6 .inner2 form textarea {
+          overflow: 150px;
+          display: block;
+          resize: vertical;
+          margin: 20px 5px 5px 40px;
+          width: 89%;
+          outline: none;
+          border-top-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          text-align: center;
+          font-family: 'Spartan', sans-serif; }
+        .tabula-main-container .formsec .col-sm-6 .inner2 form span {
+          margin: 30px 2% 5px 6%;
+          margin: 30px 2% 5px 6%;
+          display: block;
+          background: cadetblue;
+          padding: 10px 10px;
+          border-radius: 15px;
+          text-align: center;
+          color: white;
+          width: 89%;
+          font-family: 'Spartan', sans-serif; }
+.tabula-main-container iframe {
+  height: 500px;
+  width: 90%;
+  margin: 5% 5%; }
+
+@media screen and (min-widtH: 350px) and (max-width: 365px) {
+  .tabula-main-container .row {
+    margin-top: 60px; }
+  .tabula-main-container .first-section .background-div .inner {
+    margin: 120px 0% 0% 3%; }
+  .tabula-main-container .first-section .background-div .inner2 {
+    margin: 380px 10% 0% 3%; }
+  .tabula-main-container .formsec .col-sm-6 .inner2 {
+    flex-direction: column;
+    align-content: center; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 .co {
+      margin-top: 40px;
+      margin-bottom: 100px; }
+      .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner2 {
+        flex-direction: column; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 form input[type=text] {
+      margin: 20px 5% 0px 5%;
+      width: 90%; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 form textarea {
+      margin: 20px 5% 0px 5%;
+      width: 90%; }
+  .tabula-main-container iframe {
+    margin-top: 1020px;
+    width: 100%;
+    margin-lefT: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%; } }
+@media screen and (min-widtH: 366px) and (max-width: 575px) {
+  .tabula-main-container .row {
+    margin-top: 60px; }
+  .tabula-main-container .first-section .background-div .inner {
+    margin: 120px 0% 0% 3%; }
+  .tabula-main-container .first-section .background-div .inner2 {
+    margin: 320px 10% 0% 3%; }
+  .tabula-main-container .formsec .col-sm-6 .inner2 {
+    flex-direction: column;
+    align-content: center; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 .co {
+      margin-top: 40px;
+      margin-bottom: 100px; }
+      .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner2 {
+        flex-direction: column; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 form input[type=text] {
+      margin: 20px 5% 0px 5%;
+      width: 90%; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 form textarea {
+      margin: 20px 5% 0px 5%;
+      width: 90%; }
+  .tabula-main-container iframe {
+    margin-top: 1100px;
+    width: 100%;
+    margin-lefT: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%; } }
+@media screen and (min-widtH: 576px) and (max-width: 992px) {
+  .tabula-main-container .row {
+    margin-top: 60px; }
+  .tabula-main-container .first-section .background-div .inner {
+    margin: 120px 0% 0% 3%; }
+  .tabula-main-container .first-section .background-div .inner2 {
+    margin: 320px 10% 0% 3%; }
+  .tabula-main-container .formsec .col-sm-6 .inner2 {
+    flex-direction: row;
+    align-content: center; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 .co {
+      margin-top: 40px;
+      margin-bottom: 100px; }
+      .tabula-main-container .formsec .col-sm-6 .inner2 .co .inner2 {
+        flex-direction: column; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 form input[type=text] {
+      margin: 20px 5% 0px 5%;
+      width: 90%; }
+    .tabula-main-container .formsec .col-sm-6 .inner2 form textarea {
+      margin: 20px 5% 0px 5%;
+      width: 90%; }
+  .tabula-main-container iframe {
+    margin-top: 300px;
+    width: 100%;
+    margin-lefT: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%; } }
+
+/*# sourceMappingURL=contact.css.map */

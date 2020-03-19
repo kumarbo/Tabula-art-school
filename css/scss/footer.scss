@@ -1,0 +1,178 @@
+//rowsixth
+.tabula-main-container{
+.rowsixth{
+    font-size:12px;
+    .first1{
+        height:200px;
+        .ok{
+            display:block;
+            height:20%;
+            span{
+                margin-lefT:20%;
+                font-family: 'Wendy One', sans-serif;
+                font-size:20px;
+            }
+
+    
+        }
+        .ok1{
+            display:block;
+            height:20%;
+            .fa{
+                margin-lefT:20%;
+            }
+            span{
+                margin-lefT:4%;
+                font-family: 'Spartan', sans-serif;
+            }
+        }
+    }
+    .second1{
+        h5{
+            font-family: 'Wendy One', sans-serif;
+            font-size:20px;
+        }
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            li{
+                margin-top:10px;
+              a{
+                  text-decoration:none;
+                  font-family: 'Spartan', sans-serif;
+                  color:black;
+              }
+            }
+        }
+    }
+    .third1{
+        h5{
+            font-family: 'Wendy One', sans-serif;
+            font-size:20px;
+        }
+        ul{
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            li{
+                margin-top:10px;
+              a{
+                  text-decoration:none;
+                  font-family:'Spartan', sans-serif;
+                  color:black;
+              }
+            }
+        }
+    }
+    .fourth1{
+        h5{
+            
+                font-family: 'Wendy One', sans-serif;
+                font-size:20px;
+            
+        }
+        span{
+            font-family:'Spartan', sans-serif;
+        }
+    }
+}
+}
+
+@media screen and (min-width:350px) and (max-width:575px){
+    .tabula-main-container{
+    .rowsixth{
+        text-align:center;
+        .first1{
+            .ok{
+                span{
+                    margin-left:0%;
+                }
+            }
+            .ok1{
+                .fa{
+                    margin-lefT:0%;
+                }
+               
+                    
+                
+            }
+        }
+        .third1,.fourth1{
+            margin-top:20px;
+        }
+       
+        
+    }
+}
+}
+@media screen and (min-width:576px) and (max-width:580px){
+    .tabula-main-container{
+       
+    .rowsixth{
+        text-align:center;
+        .first1{
+            .ok{
+                span{
+                    margin-left:0%;
+                }
+            }
+            .ok1{
+                .fa{
+                    margin-lefT:0%;
+                }
+               
+                span{
+                    margin-left:2%;
+                }
+                    
+                
+            }
+        }
+    .third1,.fourth1{
+        margin-top:0px !important;
+    }
+       
+        
+    }
+}
+}
+
+@media screen and (min-width:581px) and (max-width:1024px){
+    .tabula-main-container{
+       .first-section{
+           .background-div{
+               .inner{
+                margin: 230px 0% 0% 3%;
+               }
+           }
+
+       }
+    .rowsixth{
+        text-align:center;
+        .first1{
+            .ok{
+                span{
+                    margin-left:0%;
+                }
+            }
+            .ok1{
+                .fa{
+                    margin-lefT:0%;
+                }
+               
+                span{
+                    margin-left:2%;
+                }
+                    
+                
+            }
+        }
+    .third1,.fourth1{
+        margin-top:0px !important;
+    }
+       
+        
+    }
+}
+}
